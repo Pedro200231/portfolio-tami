@@ -671,13 +671,7 @@ class ContactFormManager {
     }
 
     async submitToFormspree(data) {
-        // Formspree.io - serviço gratuito para formulários
-        // Para configurar:
-        // 1. Vá para https://formspree.io/
-        // 2. Crie uma conta gratuita
-        // 3. Crie um novo formulário
-        // 4. Substitua a URL abaixo pela sua URL do Formspree
-        const formspreeUrl = 'https://formspree.io/f/xvgqqdqo'; // Substitua por seu endpoint
+        const formspreeUrl = 'https://formspree.io/f/xvgqqdqo'; 
         
         try {
             const response = await fetch(formspreeUrl, {
