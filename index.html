@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tami Uemura - Analista de QA especializada em qualidade de software e experiência do usuário">
+    <title>Tami Uemura | Analista de QA</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Tami Uemura</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-text="nav-home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-text="nav-about">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-text="nav-skills">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link" data-text="nav-experience">Experiência</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#highlights" class="nav-link" data-text="nav-highlights">Destaques</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-text="nav-contact">Contato</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <div class="language-selector" id="language-selector">
+                    <button class="language-toggle" id="language-toggle" aria-label="Alterar idioma">
+                        <span class="language-flag">🇧🇷</span>
+                        <span class="language-code">PT</span>
+                        <span class="language-arrow">▼</span>
+                    </button>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <button class="language-option" data-lang="pt">
+                            <span class="language-flag">🇧🇷</span>
+                            <span class="language-name">Português</span>
+                        </button>
+                        <button class="language-option" data-lang="en">
+                            <span class="language-flag">🇺🇸</span>
+                            <span class="language-name">English</span>
+                        </button>
+                        <button class="language-option" data-lang="es">
+                            <span class="language-flag">🇪🇸</span>
+                            <span class="language-name">Español</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar tema">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-greeting" data-text="hero-greeting">Olá, eu sou</span>
+                    <span class="hero-name">Tami Uemura</span>
+                </h1>
+                <h2 class="hero-subtitle" data-text="hero-subtitle">Analista de QA</h2>
+                <p class="hero-description" data-text="hero-description">
+                   
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary" data-text="hero-btn-about">Conhecer mais</a>
+                    <a href="#contact" class="btn btn-secondary" data-text="hero-btn-contact">Entrar em contato</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <div class="profile-placeholder">
+                            <img src="assets/tami_profile_image.jpg" alt="Tami Uemura" class="avatar-icon">
+                        </div>
+                    </div>
+                    <div class="qa-badges">
+                        <div class="badge badge-1">
+                            <span class="badge-icon">🔍</span>
+                            <span class="badge-text" data-text="hero-badge-tests">Testes</span>
+                        </div>
+                        <div class="badge badge-2">
+                            <span class="badge-icon">✅</span>
+                            <span class="badge-text" data-text="hero-badge-quality">Qualidade</span>
+                        </div>
+                        <div class="badge badge-3">
+                            <span class="badge-icon">📋</span>
+                            <span class="badge-text" data-text="hero-badge-docs">Documentação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-text="about-title">Sobre Mim</h2>
+                <p class="section-subtitle" data-text="about-subtitle">Uma jornada dedicada à qualidade e excelência</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-bio">
+                        <p data-text="about-bio-1">
+                            Sou uma analista de QA apaixonada por garantir que cada produto entregue 
+                            mais do que o esperado. Com empatia, organização e uma visão sistêmica, 
+                            atuo para promover qualidade em cada detalhe.
+                        </p>
+                        <p data-text="about-bio-2">
+                            Minha trajetória profissional é marcada pelo cuidado com a equipe, 
+                            com os processos e, principalmente, com quem utiliza os produtos que 
+                            ajudo a testar e aprimorar.
+                        </p>
+                    </div>
+                    
+                    <div class="soft-skills">
+                        <h3 class="skills-title" data-text="soft-skills-title">Soft Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">🔭</div>
+                                <span class="skill-name" data-text="soft-skill-vision">Visão Panorâmica</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">💬</div>
+                                <span class="skill-name" data-text="soft-skill-communication">Comunicação</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🤝</div>
+                                <span class="skill-name" data-text="soft-skill-collaboration">Colaboração</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">⚡</div>
+                                <span class="skill-name" data-text="soft-skill-proactive">Proatividade</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">📊</div>
+                                <span class="skill-name" data-text="soft-skill-organization">Organização</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🚀</div>
+                                <span class="skill-name" data-text="soft-skill-learning">Aprendizado Rápido</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-extra">
+                    <div class="beyond-work">
+                        <h3 class="beyond-title" data-text="beyond-title">Além do trabalho</h3>
+                        <div class="beyond-content">
+                            <p data-text="beyond-quote-1">"Acredito que a tecnologia deve servir às pessoas, não o contrário."</p>
+                            <p data-text="beyond-quote-2">"Cada bug encontrado é uma oportunidade de melhorar a experiência de alguém."</p>
+                            <p data-text="beyond-quote-3">"A qualidade não é um destino, é uma jornada constante de aprimoramento."</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-info">
+                        <div class="location-item">
+                            <span class="location-icon">📍</span>
+                            <span class="location-text">São Vicente/SP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-text="skills-title">Habilidades Técnicas</h2>
+                <p class="section-subtitle" data-text="skills-subtitle">Ferramentas e metodologias que domino</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="testing">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle cx="50" cy="30" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <path d="M35 30 L45 40 L65 20" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <rect x="20" y="50" width="60" height="35" rx="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <line x1="30" y1="60" x2="70" y2="60" stroke="currentColor" stroke-width="2"/>
+                            <line x1="30" y1="68" x2="60" y2="68" stroke="currentColor" stroke-width="2"/>
+                            <line x1="30" y1="76" x2="55" y2="76" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-testing-title">Testes Manuais e Automatizados</h3>
+                    <p class="skill-description" data-text="skill-testing-desc">Execução de testes funcionais, regressivos e exploratórios</p>
+                </div>
+
+                <div class="skill-card" data-skill="orange">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="35" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="50" cy="50" r="25" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <circle cx="50" cy="50" r="15" stroke="currentColor" stroke-width="2" fill="currentColor"/>
+                            <path d="M50 15 L55 25 L50 35 L45 25 Z" fill="currentColor"/>
+                            <path d="M85 50 L75 55 L65 50 L75 45 Z" fill="currentColor"/>
+                            <path d="M50 85 L45 75 L50 65 L55 75 Z" fill="currentColor"/>
+                            <path d="M15 50 L25 45 L35 50 L25 55 Z" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-orange-title">Orange Testing</h3>
+                    <p class="skill-description" data-text="skill-orange-desc">Ferramenta especializada para automação de testes</p>
+                </div>
+
+                <div class="skill-card" data-skill="azure">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <path d="M20 70 L35 30 L65 35 L80 70 Z" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="35" cy="35" r="5" fill="currentColor"/>
+                            <circle cx="65" cy="45" r="5" fill="currentColor"/>
+                            <circle cx="50" cy="60" r="5" fill="currentColor"/>
+                            <line x1="35" y1="35" x2="65" y2="45" stroke="currentColor" stroke-width="2"/>
+                            <line x1="65" y1="45" x2="50" y2="60" stroke="currentColor" stroke-width="2"/>
+                            <line x1="50" y1="60" x2="35" y2="35" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-azure-title">Azure DevOps</h3>
+                    <p class="skill-description" data-text="skill-azure-desc">Gestão de projetos, pipelines e controle de versão</p>
+                </div>
+
+                <div class="skill-card" data-skill="bugs">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <ellipse cx="50" cy="45" rx="20" ry="25" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="45" cy="38" r="3" fill="currentColor"/>
+                            <circle cx="55" cy="38" r="3" fill="currentColor"/>
+                            <path d="M30 35 Q25 30 20 35" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M70 35 Q75 30 80 35" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M30 55 Q25 60 20 55" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M70 55 Q75 60 80 55" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <line x1="40" y1="25" x2="35" y2="15" stroke="currentColor" stroke-width="2"/>
+                            <line x1="60" y1="25" x2="65" y2="15" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-bugs-title">Gestão de Bugs</h3>
+                    <p class="skill-description" data-text="skill-bugs-desc">Identificação, documentação e acompanhamento de defeitos</p>
+                </div>
+
+                <div class="skill-card" data-skill="documentation">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <rect x="25" y="20" width="50" height="60" rx="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <line x1="35" y1="35" x2="65" y2="35" stroke="currentColor" stroke-width="2"/>
+                            <line x1="35" y1="45" x2="65" y2="45" stroke="currentColor" stroke-width="2"/>
+                            <line x1="35" y1="55" x2="55" y2="55" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="40" cy="65" r="2" fill="currentColor"/>
+                            <circle cx="50" cy="65" r="2" fill="currentColor"/>
+                            <circle cx="60" cy="65" r="2" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-docs-title">Documentação de Processos</h3>
+                    <p class="skill-description" data-text="skill-docs-desc">Criação de manuais e procedimentos de teste</p>
+                </div>
+
+                <div class="skill-card" data-skill="agile">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <circle cx="30" cy="30" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="70" cy="30" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="30" cy="70" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="70" cy="70" r="15" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <path d="M45 30 Q50 25 55 30" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M30 45 Q25 50 30 55" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M70 45 Q75 50 70 55" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <path d="M45 70 Q50 75 55 70" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-agile-title">Scrum / Kanban</h3>
+                    <p class="skill-description" data-text="skill-agile-desc">Metodologias ágeis e gestão de projetos</p>
+                </div>
+
+                <div class="skill-card" data-skill="prototype">
+                    <div class="skill-icon-container">
+                        <svg class="skill-svg" viewBox="0 0 100 100">
+                            <rect x="20" y="25" width="60" height="50" rx="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <rect x="30" y="35" width="40" height="5" rx="2" fill="currentColor"/>
+                            <rect x="30" y="45" width="25" height="5" rx="2" fill="currentColor"/>
+                            <rect x="30" y="55" width="35" height="5" rx="2" fill="currentColor"/>
+                            <circle cx="65" cy="47" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+                            <line x1="25" y1="15" x2="75" y2="15" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="skill-title" data-text="skill-proto-title">Prototipação de Telas</h3>
+                    <p class="skill-description" data-text="skill-proto-desc">Design e validação de interfaces de usuário</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-text="experience-title">Experiência Profissional</h2>
+                <p class="section-subtitle" data-text="experience-subtitle">Jornada de crescimento e impacto</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">2023 - 2025</div>
+                        <h3 class="timeline-title">ForLogic Tecnologia</h3>
+                        <h4 class="timeline-role" data-text="forlogic-role">Analista de QA</h4>
+                        <div class="timeline-description">
+                            <p data-text="forlogic-description">
+                                Como única QA da pipeline, fui responsável por garantir a qualidade 
+                                de todo o ciclo de desenvolvimento, desde a concepção até a entrega final.
+                            </p>
+                            <ul class="timeline-achievements">
+                                <li data-text="forlogic-achievement-1">Gestão completa de bugs e controle de qualidade</li>
+                                <li data-text="forlogic-achievement-2">Implementação de processos de teste eficientes</li>
+                                <li data-text="forlogic-achievement-3">Colaboração direta com equipes de desenvolvimento</li>
+                                <li data-text="forlogic-achievement-4">Redução significativa de defeitos em produção</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Orange Testing</span>
+                            <span class="tag">Azure DevOps</span>
+                            <span class="tag">Gestão de Bugs</span>
+                            <span class="tag">Testes Manuais</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">2022 - 2023</div>
+                        <h3 class="timeline-title">PA Tecnologia</h3>
+                        <h4 class="timeline-role" data-text="pa-role">Analista de QA</h4>
+                        <div class="timeline-description">
+                            <p data-text="pa-description">
+                                Focada na documentação detalhada de processos, execução de testes 
+                                rigorosos e design de interfaces intuitivas.
+                            </p>
+                            <ul class="timeline-achievements">
+                                <li data-text="pa-achievement-1">Documentação abrangente de processos de teste</li>
+                                <li data-text="pa-achievement-2">Design e prototipação de telas</li>
+                                <li data-text="pa-achievement-3">Testes funcionais e de usabilidade</li>
+                                <li data-text="pa-achievement-4">Melhoria contínua de processos</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Documentação</span>
+                            <span class="tag">Prototipação</span>
+                            <span class="tag">Design de Telas</span>
+                            <span class="tag">Processos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section id="highlights" class="highlights">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-text="highlights-title">Casos Marcantes</h2>
+                <p class="section-subtitle" data-text="highlights-subtitle">Momentos que definiram minha trajetória como QA</p>
+            </div>
+            <div class="highlights-grid">
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg viewBox="0 0 100 100" class="highlight-svg">
+                            <circle cx="50" cy="30" r="12" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="30" cy="60" r="12" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="70" cy="60" r="12" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <line x1="42" y1="38" x2="38" y2="52" stroke="currentColor" stroke-width="3"/>
+                            <line x1="58" y1="38" x2="62" y2="52" stroke="currentColor" stroke-width="3"/>
+                            <path d="M20 85 Q50 75 80 85" stroke="currentColor" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title" data-text="highlight-1-title">Capacitação de Equipe</h3>
+                    <p class="highlight-description" data-text="highlight-1-desc">
+                        Atuei na capacitação e mentoria de 3 novos QAs na empresa, compartilhando conhecimentos e boas práticas.
+                    </p>
+                    <div class="highlight-impact">
+                        <span class="impact-badge" data-text="highlight-1-impact">👥 Equipe QA fortalecida</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg viewBox="0 0 100 100" class="highlight-svg">
+                            <rect x="15" y="25" width="30" height="50" rx="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <rect x="55" y="25" width="30" height="50" rx="5" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <line x1="25" y1="35" x2="35" y2="35" stroke="currentColor" stroke-width="2"/>
+                            <line x1="25" y1="45" x2="35" y2="45" stroke="currentColor" stroke-width="2"/>
+                            <line x1="65" y1="35" x2="75" y2="35" stroke="currentColor" stroke-width="2"/>
+                            <line x1="65" y1="45" x2="75" y2="45" stroke="currentColor" stroke-width="2"/>
+                            <path d="M45 40 Q50 35 55 40" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title" data-text="highlight-2-title">Gestão Simultânea</h3>
+                    <p class="highlight-description" data-text="highlight-2-desc">
+                        Gerenciei com sucesso 2 sprints de pipelines diferentes simultaneamente, mantendo a qualidade em ambos os projetos.
+                    </p>
+                    <div class="highlight-impact">
+                        <span class="impact-badge" data-text="highlight-2-impact">⚡ Eficiência operacional</span>
+                    </div>
+                </div>
+
+                <div class="highlight-card">
+                    <div class="highlight-icon">
+                        <svg viewBox="0 0 100 100" class="highlight-svg">
+                            <polygon points="50,10 60,35 85,35 67,52 75,77 50,62 25,77 33,52 15,35 40,35" stroke="currentColor" stroke-width="3" fill="none"/>
+                            <circle cx="50" cy="50" r="8" fill="currentColor"/>
+                            <path d="M30 80 Q50 75 70 80" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                    </div>
+                    <h3 class="highlight-title" data-text="highlight-3-title">Impacto Estratégico</h3>
+                    <p class="highlight-description" data-text="highlight-3-desc">
+                        Atuei diretamente em KRs (Key Results) e inúmeros processos estratégicos da empresa, contribuindo para o crescimento organizacional.
+                    </p>
+                    <div class="highlight-impact">
+                        <span class="impact-badge" data-text="highlight-3-impact">🎯 Resultados estratégicos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="resume-content">
+                <div class="resume-info">
+                    <h2 class="resume-title" data-text="resume-title">Currículo Completo</h2>
+                    <p class="resume-description" data-text="resume-description">
+                        Baixe meu currículo em PDF para conhecer mais detalhes sobre 
+                        minha formação, experiências e certificações.
+                    </p>
+                </div>
+                <div class="resume-action">
+                    <a href="assets/Curriculo_Tami_Uemura.pdf" download="Curriculo_Tami_Uemura.pdf" class="btn btn-download">
+                        <span class="download-icon">📄</span>
+                        <span class="download-text" data-text="resume-download">Baixar Currículo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-text="contact-title">Vamos Conversar?</h2>
+                <p class="section-subtitle" data-text="contact-subtitle">Estou sempre aberta a novas oportunidades e conexões</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-title" data-text="contact-email">Email</h3>
+                            <a href="mailto:tamiuemura.work@gmail.com" class="contact-link">
+                                tamiuemura.work@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3 class="contact-title">LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/tamiuemura/" target="_blank" class="contact-link">
+                                linkedin.com/in/tamiuemura
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name" class="form-label" data-text="contact-form-name">Nome</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Seu nome completo" data-text="placeholder-name">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label" data-text="contact-form-email">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="seu@email.com" data-text="placeholder-email">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label" data-text="contact-form-message">Mensagem</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" placeholder="Sua mensagem aqui..." data-text="placeholder-message"></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-submit">
+                            <span class="submit-text" data-text="contact-form-send">Enviar Mensagem</span>
+                            <span class="submit-icon">✈️</span>
+                        </button>
+                    </form>
+                    
+                    <div class="form-feedback" id="form-feedback">
+                        <div class="feedback-content">
+                            <span class="feedback-icon">✅</span>
+                            <span class="feedback-text" data-text="contact-success">Mensagem enviada com sucesso!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Tami Uemura. <span data-text="footer-text">Feito com 💜 e dedicação à qualidade.</span></p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" class="footer-link" data-text="footer-back">Voltar ao topo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
